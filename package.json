@@ -6,7 +6,7 @@
   "repository": "amercier/npm-package-skeleton",
   "author": "Alex Mercier <pro.alexandre.mercier@gmail.com> (http://amercier.com)",
   "engines": {
-    "node": ">=0.10.0"
+    "node": ">=4.0"
   },
   "scripts": {
     "transpile": "rimraf dist && babel src -d dist",
