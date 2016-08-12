@@ -3,6 +3,7 @@ node_js: --lts
 addons:
   chrome: stable
 before_script:
+  - '[ "$TRAVIS_PULL_REQUEST" != false ] || export SAUCE_ENABLED=true' # Disabled for pull requests
   - curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
   - chmod +x ./cc-test-reporter
   - ./cc-test-reporter before-build
