@@ -1,6 +1,8 @@
 npm-package-skeleton
 ====================
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/amercier/npm-package-skeleton.svg)](https://greenkeeper.io/)
+
 Skeleton of a simple NPM Package with Babel and CI already configured.
 
 #### Pre-configured development tools
