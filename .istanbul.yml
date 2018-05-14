@@ -1,0 +1,3 @@
+reporting:
+  report-config:
+    html: {subdir: .}

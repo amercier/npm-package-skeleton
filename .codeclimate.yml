@@ -18,7 +18,6 @@ ratings:
   paths:
   - '**/*.js'
 exclude_paths:
-- .nyc_output
 - coverage
 - dist
 - esdoc
