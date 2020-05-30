@@ -50,7 +50,7 @@
     "@babel/cli": "^7.10.1",
     "@babel/core": "^7.10.2",
     "@babel/preset-env": "^7.10.2",
-    "@babel/register": "^7.0.0",
+    "@babel/register": "^7.10.1",
     "babel-core": "^7.0.0-bridge.0",
     "codecov": "^3.1.0",
     "cross-env": "^5.2.0",
